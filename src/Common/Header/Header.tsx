@@ -12,7 +12,7 @@ const Header = () => {
       }}
     >
       <div className="head">
-        <p className="offer">ssdsdsd</p>
+        <p className="offer">hello</p>
       </div>
 
       <section className="flex-bar">

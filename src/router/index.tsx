@@ -6,7 +6,7 @@ import Info from "../screen/InfoProduct/Info";
 const MainRouter = () => {
   return (
     <Routes>
-      <Route path="/" Component={Home} />
+      <Route path="/boat" Component={Home} />
       <Route path="/viewall" Component={productView} />
       <Route path="/productdetails" Component={Info} />
     </Routes>
