@@ -17,7 +17,7 @@ const Header = () => {
 
       <section className="flex-bar">
         <div className="title">
-          <Link to={"/"}>
+          <Link to={"/boat"}>
             {" "}
             <img
               src="https://www.boat-lifestyle.com/cdn/shop/files/boAt_logo_small_3067da8c-a83b-46dd-b28b-6ef1e16ccd17_small.svg?v=1693549434"

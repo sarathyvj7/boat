@@ -408,7 +408,7 @@ const Home = () => {
       <div>
         <div className="view-bar">
           <h4>Top Picks For You</h4>
-          <a href="viewall">
+          <a href="/viewall">
             viewall <FaArrowRight />
           </a>
         </div>
