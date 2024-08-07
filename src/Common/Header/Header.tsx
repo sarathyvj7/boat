@@ -34,7 +34,7 @@ const Header = () => {
             <a className="link" href="/boatpersonlistation">
               boatpersonlistation
             </a>
-            <a className="link" href="  / Corporate Oders">
+            <a className="link" href="/Corporate Oders">
               Corporate Oders
             </a>
             <a className="link" href="/more">
