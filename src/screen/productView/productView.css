@@ -1,0 +1,9 @@
+.product-bar {
+  padding: 10px;
+  margin: 10px;
+}
+.button-view {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

@@ -1,0 +1,13 @@
+.image-style {
+  width: 280px;
+  height: 300px;
+  padding: 10px;
+}
+.box-style {
+  background-color: #f2eeee;
+  width: 260px;
+  height: 80px;
+}
+.name-style {
+  text-align: center;
+}

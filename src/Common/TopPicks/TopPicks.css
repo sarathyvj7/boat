@@ -1,0 +1,59 @@
+.box-card {
+  width: 280px;
+  height: 380px;
+  border-radius: 10px;
+  background-color: #f2eeee;
+  position: relative;
+  gap: 10px;
+}
+.image-tips {
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 280px;
+  height: 250px;
+  object-fit: fill;
+  justify-content: space-evenly;
+}
+.collection-tips {
+  size: 50%;
+  text-align: center;
+  background-color: #fcc50b;
+  border-radius: 20px;
+  color: #000000;
+  font-style: italic;
+}
+.tips-bar {
+  display: flex;
+  justify-content: space-evenly;
+}
+.tips-name {
+  margin: 4px 0px 0px;
+
+  color: #000000;
+
+  font-size: 1rem;
+}
+.tips-del {
+  font-size: 0.9rem;
+  color: #12b985;
+}
+
+.tips-add {
+  background-color: #000000;
+  color: white;
+  border-radius: 10px;
+  justify-content: flex-end;
+  flex-grow: 1rem;
+}
+.tips-imt {
+  background-color: #000000;
+  width: 100px;
+  font-size: 0.6rem;
+  color: white;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 1;
+}

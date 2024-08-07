@@ -1,0 +1,15 @@
+.fot-container {
+  width: 200vh;
+  height: 400px;
+  background-color: #e7f0f7;
+  padding: 20px;
+  margin: 20px;
+}
+.foot-image {
+  width: 150px;
+  height: 100;
+}
+.footer-text {
+  display: flex;
+  gap: 20px;
+}

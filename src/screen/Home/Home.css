@@ -1,0 +1,74 @@
+img {
+  width: 100%;
+  background-size: 100% 100%;
+}
+.information {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.style1 {
+  height: 100px;
+  width: 80px;
+  font-size: 1rem;
+}
+
+.style2 {
+  height: 100px;
+  width: 80px;
+  font-size: 1rem;
+}
+.style3 {
+  height: 100px;
+  width: 90px;
+  font-size: 1rem;
+}
+.style4 {
+  height: 100px;
+  width: 90px;
+  font-size: 1rem;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.summer-sale {
+  display: flex;
+  align-items: center;
+
+  width: 200vh;
+  align-items: center;
+  border-radius: 20px;
+}
+.hr {
+  font-size: 1.3rem;
+  font-style: unset;
+}
+.main_images {
+  object-fit: cover;
+}
+.span1 {
+  color: red;
+}
+.htag {
+  width: 100px;
+}
+.offer-bar {
+  font-size: 1rem;
+}
+.deals {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+.view-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.war {
+  font: bolder;
+
+  font-size: 1rem;
+}
