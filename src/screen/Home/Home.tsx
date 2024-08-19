@@ -13,8 +13,10 @@ import NewStyle from "../../Common/newstyle/newstyle";
 import BestSeller from "../../Common/bestseller/BestSeller";
 import TopPicks from "../../Common/TopPicks/TopPicks";
 import ExploreBest from "../../Common/explore/exploreBest";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navigate = useNavigate();
   const array = [
     {
       imageUrl:
@@ -408,9 +410,13 @@ const Home = () => {
       <div>
         <div className="view-bar">
           <h4>Top Picks For You</h4>
-          <a href="/viewall">
+          <p
+            onClick={() => {
+              navigate("/viewall");
+            }}
+          >
             viewall <FaArrowRight />
-          </a>
+          </p>
         </div>
 
         <div>
